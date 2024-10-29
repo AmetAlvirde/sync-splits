@@ -1,9 +1,10 @@
 import "./App.css";
+import { PaceConverter } from "@/components/pace-converter/PaceConverter";
 
 function App() {
   return (
     <>
-      <p>hola</p>
+      <PaceConverter></PaceConverter>
     </>
   );
 }
